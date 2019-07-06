@@ -1,0 +1,1005 @@
+Class;healthwatcher.Constants;;;;
+Method;healthwatcher.Constants.isPersistent;;;;
+Class;healthwatcher.business.HWServer;;;;
+Method;healthwatcher.business.HWServer.main;;;;
+Class;healthwatcher.business.HealthWatcherFacade;;;;
+Constructor;healthwatcher.business.HealthWatcherFacade.HealthWatcherFacade;;;;
+Method;healthwatcher.business.HealthWatcherFacade.getComplaintList;1;;;
+Method;healthwatcher.business.HealthWatcherFacade.getDiseaseTypeList;;;;
+Method;healthwatcher.business.HealthWatcherFacade.getHealthUnitList;1;;;
+Method;healthwatcher.business.HealthWatcherFacade.getInstance;;;;
+Method;healthwatcher.business.HealthWatcherFacade.getPartialHealthUnitList;;;;
+Method;healthwatcher.business.HealthWatcherFacade.getPm;1;;;
+Method;healthwatcher.business.HealthWatcherFacade.getSpecialityList;;;;
+Method;healthwatcher.business.HealthWatcherFacade.getSymptomList;;;;
+Method;healthwatcher.business.HealthWatcherFacade.insert;1;;;1
+Method;healthwatcher.business.HealthWatcherFacade.insert;;;;1
+Method;healthwatcher.business.HealthWatcherFacade.insert;1;;;1
+Method;healthwatcher.business.HealthWatcherFacade.insert;;;;1
+Method;healthwatcher.business.HealthWatcherFacade.insert;;;;1
+Method;healthwatcher.business.HealthWatcherFacade.insertComplaint;;;;1
+Method;healthwatcher.business.HealthWatcherFacade.notify;;;;
+Method;healthwatcher.business.HealthWatcherFacade.pmInit;;;;
+Method;healthwatcher.business.HealthWatcherFacade.searchComplaint;;;;1
+Method;healthwatcher.business.HealthWatcherFacade.searchDiseaseType;;;;1
+Method;healthwatcher.business.HealthWatcherFacade.searchEmployee;;;;1
+Method;healthwatcher.business.HealthWatcherFacade.searchHealthUnit;;;;1
+Method;healthwatcher.business.HealthWatcherFacade.searchHealthUnitsBySpeciality;;;;1
+Method;healthwatcher.business.HealthWatcherFacade.searchSpecialitiesByCode;;;;1
+Method;healthwatcher.business.HealthWatcherFacade.searchSpecialitiesByHealthUnit;;;;1
+Method;healthwatcher.business.HealthWatcherFacade.searchSymptom;;;;1
+Method;healthwatcher.business.HealthWatcherFacade.updateComplaint;;;;1
+Method;healthwatcher.business.HealthWatcherFacade.updateEmployee;;;;1
+Method;healthwatcher.business.HealthWatcherFacade.updateHealthUnit;;;;1
+Method;healthwatcher.business.HealthWatcherFacade.updateMedicalSpeciality;;;;1
+Method;healthwatcher.business.HealthWatcherFacade.updateSymptom;;;;1
+Interface;healthwatcher.business.IFacadeRMITargetAdapter;;;;
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.getComplaintList;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.getDiseaseTypeList;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.getHealthUnitList;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.getPartialHealthUnitList;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.getSpecialityList;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.getSymptomList;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.insert;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.insert;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.insert;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.insert;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.insert;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.insertComplaint;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.searchComplaint;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.searchDiseaseType;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.searchEmployee;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.searchHealthUnit;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.searchHealthUnitsBySpeciality;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.searchSpecialitiesByCode;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.searchSpecialitiesByHealthUnit;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.searchSymptom;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.updateComplaint;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.updateEmployee;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.updateHealthUnit;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.updateMedicalSpeciality;;;;1
+Abstract Method;healthwatcher.business.IFacadeRMITargetAdapter.updateSymptom;;;;1
+Class;healthwatcher.business.RMIFacadeAdapter;;;;
+Constructor;healthwatcher.business.RMIFacadeAdapter.RMIFacadeAdapter;1;;;
+Method;healthwatcher.business.RMIFacadeAdapter.getComplaintList;1;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.getDiseaseTypeList;1;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.getHealthUnitList;1;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.getInstance;;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.getPartialHealthUnitList;1;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.getSpecialityList;1;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.getSymptomList;1;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.insert;1;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.insert;1;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.insert;;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.insert;1;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.insert;1;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.insertComplaint;1;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.rmiFacadeExceptionHandling;1;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.searchComplaint;1;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.searchDiseaseType;1;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.searchEmployee;1;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.searchHealthUnit;1;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.searchHealthUnitsBySpeciality;1;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.searchSpecialitiesByCode;;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.searchSpecialitiesByHealthUnit;;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.searchSymptom;;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.updateComplaint;;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.updateEmployee;;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.updateHealthUnit;;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.updateMedicalSpeciality;;;;1
+Method;healthwatcher.business.RMIFacadeAdapter.updateSymptom;;;;1
+Class;healthwatcher.business.complaint.ComplaintRecord;;;;1
+Constructor;healthwatcher.business.complaint.ComplaintRecord.ComplaintRecord;;;;
+Method;healthwatcher.business.complaint.ComplaintRecord.getComplaintList;;;;
+Method;healthwatcher.business.complaint.ComplaintRecord.insert;;;;
+Method;healthwatcher.business.complaint.ComplaintRecord.search;;;;
+Method;healthwatcher.business.complaint.ComplaintRecord.update;;;;
+Method;healthwatcher.business.complaint.ComplaintRecord.validate;;1;;
+Class;healthwatcher.business.complaint.DiseaseRecord;;;;
+Constructor;healthwatcher.business.complaint.DiseaseRecord.DiseaseRecord;;;;
+Method;healthwatcher.business.complaint.DiseaseRecord.getDiseaseTypeList;;;;
+Method;healthwatcher.business.complaint.DiseaseRecord.insert;;;;
+Method;healthwatcher.business.complaint.DiseaseRecord.search;;;;
+Class;healthwatcher.business.complaint.SymptomRecord;;;;
+Constructor;healthwatcher.business.complaint.SymptomRecord.SymptomRecord;;;;
+Method;healthwatcher.business.complaint.SymptomRecord.getSymptomList;;;;
+Method;healthwatcher.business.complaint.SymptomRecord.insert;;;;
+Method;healthwatcher.business.complaint.SymptomRecord.search;;;;
+Method;healthwatcher.business.complaint.SymptomRecord.update;;;;
+Class;healthwatcher.business.employee.EmployeeRecord;;;;
+Constructor;healthwatcher.business.employee.EmployeeRecord.EmployeeRecord;;;;
+Method;healthwatcher.business.employee.EmployeeRecord.insert;;;;
+Method;healthwatcher.business.employee.EmployeeRecord.search;;;;
+Method;healthwatcher.business.employee.EmployeeRecord.update;;;;
+Abstract Class;healthwatcher.business.factories.AbstractFacadeFactory;;;;
+Abstract Method;healthwatcher.business.factories.AbstractFacadeFactory.createClientFacade;;;;
+Abstract Method;healthwatcher.business.factories.AbstractFacadeFactory.createServerFacade;;;;
+Class;healthwatcher.business.factories.FacadeFactory;;;;
+Method;healthwatcher.business.factories.FacadeFactory.getRepositoryFactory;;;;
+Class;healthwatcher.business.factories.RMIFacadeFactory;;;;
+Method;healthwatcher.business.factories.RMIFacadeFactory.createClientFacade;;;;
+Method;healthwatcher.business.factories.RMIFacadeFactory.createServerFacade;;;;
+Class;healthwatcher.business.healthguide.HealthUnitRecord;;;;
+Constructor;healthwatcher.business.healthguide.HealthUnitRecord.HealthUnitRecord;;;;
+Method;healthwatcher.business.healthguide.HealthUnitRecord.getHealthUnitList;;;;
+Method;healthwatcher.business.healthguide.HealthUnitRecord.getPartialHealthUnitList;;;;
+Method;healthwatcher.business.healthguide.HealthUnitRecord.insert;;;;
+Method;healthwatcher.business.healthguide.HealthUnitRecord.search;;;;
+Method;healthwatcher.business.healthguide.HealthUnitRecord.searchHealthUnitsBySpeciality;;;;
+Method;healthwatcher.business.healthguide.HealthUnitRecord.searchSpecialityByHealthUnit;;;;
+Method;healthwatcher.business.healthguide.HealthUnitRecord.update;;;;
+Class;healthwatcher.business.healthguide.MedicalSpecialityRecord;;;;
+Constructor;healthwatcher.business.healthguide.MedicalSpecialityRecord.MedicalSpecialityRecord;;;;
+Method;healthwatcher.business.healthguide.MedicalSpecialityRecord.getListaEspecialidade;;;;
+Method;healthwatcher.business.healthguide.MedicalSpecialityRecord.insert;;;;
+Method;healthwatcher.business.healthguide.MedicalSpecialityRecord.search;;;;
+Method;healthwatcher.business.healthguide.MedicalSpecialityRecord.update;;;;
+Interface;healthwatcher.data.IAddressRepository;;;;
+Abstract Method;healthwatcher.data.IAddressRepository.exists;;;;
+Abstract Method;healthwatcher.data.IAddressRepository.insert;;;;
+Abstract Method;healthwatcher.data.IAddressRepository.remove;;;;
+Abstract Method;healthwatcher.data.IAddressRepository.search;;;;
+Abstract Method;healthwatcher.data.IAddressRepository.update;;;;
+Interface;healthwatcher.data.IComplaintRepository;;;;
+Abstract Method;healthwatcher.data.IComplaintRepository.exists;;;;
+Abstract Method;healthwatcher.data.IComplaintRepository.getComplaintList;;;;
+Abstract Method;healthwatcher.data.IComplaintRepository.insert;;;;
+Abstract Method;healthwatcher.data.IComplaintRepository.remove;;;;
+Abstract Method;healthwatcher.data.IComplaintRepository.search;;;;
+Abstract Method;healthwatcher.data.IComplaintRepository.update;;;;
+Interface;healthwatcher.data.IDiseaseRepository;;;;
+Abstract Method;healthwatcher.data.IDiseaseRepository.exists;;;;
+Abstract Method;healthwatcher.data.IDiseaseRepository.getDiseaseTypeList;;;;
+Abstract Method;healthwatcher.data.IDiseaseRepository.insert;;;;
+Abstract Method;healthwatcher.data.IDiseaseRepository.search;;;;
+Abstract Method;healthwatcher.data.IDiseaseRepository.update;;;;
+Interface;healthwatcher.data.IEmployeeRepository;;;;
+Abstract Method;healthwatcher.data.IEmployeeRepository.exists;;;;
+Abstract Method;healthwatcher.data.IEmployeeRepository.insert;;;;
+Abstract Method;healthwatcher.data.IEmployeeRepository.remove;;;;
+Abstract Method;healthwatcher.data.IEmployeeRepository.search;;;;
+Abstract Method;healthwatcher.data.IEmployeeRepository.update;;;;
+Interface;healthwatcher.data.IHealthUnitRepository;;;;
+Abstract Method;healthwatcher.data.IHealthUnitRepository.exists;;;;
+Abstract Method;healthwatcher.data.IHealthUnitRepository.getHealthUnitList;;;;
+Abstract Method;healthwatcher.data.IHealthUnitRepository.getHealthUnitListBySpeciality;;;;
+Abstract Method;healthwatcher.data.IHealthUnitRepository.getPartialHealthUnitList;;;;
+Abstract Method;healthwatcher.data.IHealthUnitRepository.insert;;;;
+Abstract Method;healthwatcher.data.IHealthUnitRepository.remove;;;;
+Abstract Method;healthwatcher.data.IHealthUnitRepository.search;;;;
+Abstract Method;healthwatcher.data.IHealthUnitRepository.update;;;;
+Interface;healthwatcher.data.ISpecialityRepository;;;;
+Abstract Method;healthwatcher.data.ISpecialityRepository.exists;;;;
+Abstract Method;healthwatcher.data.ISpecialityRepository.getSpecialityList;;;;
+Abstract Method;healthwatcher.data.ISpecialityRepository.insert;;;;
+Abstract Method;healthwatcher.data.ISpecialityRepository.remove;;;;
+Abstract Method;healthwatcher.data.ISpecialityRepository.search;;;;
+Abstract Method;healthwatcher.data.ISpecialityRepository.update;;;;
+Interface;healthwatcher.data.ISymptomRepository;;;;
+Abstract Method;healthwatcher.data.ISymptomRepository.exists;;;;
+Abstract Method;healthwatcher.data.ISymptomRepository.getSymptomList;;;;
+Abstract Method;healthwatcher.data.ISymptomRepository.insert;;;;
+Abstract Method;healthwatcher.data.ISymptomRepository.remove;;;;
+Abstract Method;healthwatcher.data.ISymptomRepository.search;;;;
+Abstract Method;healthwatcher.data.ISymptomRepository.update;;;;
+Abstract Class;healthwatcher.data.factories.AbstractRepositoryFactory;;;;
+Abstract Method;healthwatcher.data.factories.AbstractRepositoryFactory.createComplaintRepository;;;;
+Abstract Method;healthwatcher.data.factories.AbstractRepositoryFactory.createDiseaseRepository;;;;
+Abstract Method;healthwatcher.data.factories.AbstractRepositoryFactory.createEmployeeRepository;;;;
+Abstract Method;healthwatcher.data.factories.AbstractRepositoryFactory.createHealthUnitRepository;;;;
+Abstract Method;healthwatcher.data.factories.AbstractRepositoryFactory.createMedicalSpecialityRepository;;;;
+Abstract Method;healthwatcher.data.factories.AbstractRepositoryFactory.createSymptomRepository;;;;
+Class;healthwatcher.data.factories.ArrayRepositoryFactory;;;;
+Method;healthwatcher.data.factories.ArrayRepositoryFactory.createComplaintRepository;;;;
+Method;healthwatcher.data.factories.ArrayRepositoryFactory.createDiseaseRepository;;;;
+Method;healthwatcher.data.factories.ArrayRepositoryFactory.createEmployeeRepository;;;;
+Method;healthwatcher.data.factories.ArrayRepositoryFactory.createHealthUnitRepository;;;;
+Method;healthwatcher.data.factories.ArrayRepositoryFactory.createMedicalSpecialityRepository;;;;
+Method;healthwatcher.data.factories.ArrayRepositoryFactory.createSymptomRepository;;;;
+Class;healthwatcher.data.factories.RDBRepositoryFactory;;;;
+Constructor;healthwatcher.data.factories.RDBRepositoryFactory.RDBRepositoryFactory;;;;
+Method;healthwatcher.data.factories.RDBRepositoryFactory.createComplaintRepository;;;;
+Method;healthwatcher.data.factories.RDBRepositoryFactory.createDiseaseRepository;;;;
+Method;healthwatcher.data.factories.RDBRepositoryFactory.createEmployeeRepository;;;;
+Method;healthwatcher.data.factories.RDBRepositoryFactory.createHealthUnitRepository;;;;
+Method;healthwatcher.data.factories.RDBRepositoryFactory.createMedicalSpecialityRepository;;;;
+Method;healthwatcher.data.factories.RDBRepositoryFactory.createSymptomRepository;;;;
+Class;healthwatcher.data.factories.RepositoryFactory;;;;
+Method;healthwatcher.data.factories.RepositoryFactory.getRepositoryFactory;;;;
+Class;healthwatcher.data.mem.ComplaintRepositoryArray;;;;
+Constructor;healthwatcher.data.mem.ComplaintRepositoryArray.ComplaintRepositoryArray;;;;
+Method;healthwatcher.data.mem.ComplaintRepositoryArray.exists;;;;
+Method;healthwatcher.data.mem.ComplaintRepositoryArray.getComplaintList;;;;
+Method;healthwatcher.data.mem.ComplaintRepositoryArray.getIndex;;;;
+Method;healthwatcher.data.mem.ComplaintRepositoryArray.hasNext;;;;
+Method;healthwatcher.data.mem.ComplaintRepositoryArray.insert;;1;;
+Method;healthwatcher.data.mem.ComplaintRepositoryArray.next;;;;
+Method;healthwatcher.data.mem.ComplaintRepositoryArray.remove;;;;
+Method;healthwatcher.data.mem.ComplaintRepositoryArray.reset;;;;
+Method;healthwatcher.data.mem.ComplaintRepositoryArray.search;;;;
+Method;healthwatcher.data.mem.ComplaintRepositoryArray.update;;;;
+Class;healthwatcher.data.mem.DiseaseTypeRepositoryArray;;;;
+Constructor;healthwatcher.data.mem.DiseaseTypeRepositoryArray.DiseaseTypeRepositoryArray;;;;
+Method;healthwatcher.data.mem.DiseaseTypeRepositoryArray.exists;;;;
+Method;healthwatcher.data.mem.DiseaseTypeRepositoryArray.getDiseaseTypeList;;;;
+Method;healthwatcher.data.mem.DiseaseTypeRepositoryArray.getIndex;;;;
+Method;healthwatcher.data.mem.DiseaseTypeRepositoryArray.hasNext;;;;
+Method;healthwatcher.data.mem.DiseaseTypeRepositoryArray.insert;;;;
+Method;healthwatcher.data.mem.DiseaseTypeRepositoryArray.next;;;;
+Method;healthwatcher.data.mem.DiseaseTypeRepositoryArray.remove;;;;
+Method;healthwatcher.data.mem.DiseaseTypeRepositoryArray.reset;;;;
+Method;healthwatcher.data.mem.DiseaseTypeRepositoryArray.search;;;;
+Method;healthwatcher.data.mem.DiseaseTypeRepositoryArray.update;;;;
+Class;healthwatcher.data.mem.EmployeeRepositoryArray;;;;
+Constructor;healthwatcher.data.mem.EmployeeRepositoryArray.EmployeeRepositoryArray;;;;
+Method;healthwatcher.data.mem.EmployeeRepositoryArray.exists;;;;
+Method;healthwatcher.data.mem.EmployeeRepositoryArray.getIndex;;;;
+Method;healthwatcher.data.mem.EmployeeRepositoryArray.hasNext;;;;
+Method;healthwatcher.data.mem.EmployeeRepositoryArray.insert;;;;
+Method;healthwatcher.data.mem.EmployeeRepositoryArray.next;;;;
+Method;healthwatcher.data.mem.EmployeeRepositoryArray.remove;;;;
+Method;healthwatcher.data.mem.EmployeeRepositoryArray.reset;;;;
+Method;healthwatcher.data.mem.EmployeeRepositoryArray.search;;;;
+Method;healthwatcher.data.mem.EmployeeRepositoryArray.update;;;;
+Class;healthwatcher.data.mem.HealthUnitRepositoryArray;;;;
+Constructor;healthwatcher.data.mem.HealthUnitRepositoryArray.HealthUnitRepositoryArray;;;;
+Method;healthwatcher.data.mem.HealthUnitRepositoryArray.exists;;;;
+Method;healthwatcher.data.mem.HealthUnitRepositoryArray.getHealthUnitList;;;;
+Method;healthwatcher.data.mem.HealthUnitRepositoryArray.getHealthUnitListBySpeciality;;;;
+Method;healthwatcher.data.mem.HealthUnitRepositoryArray.getIndex;;;;
+Method;healthwatcher.data.mem.HealthUnitRepositoryArray.getPartialHealthUnitList;;;;
+Method;healthwatcher.data.mem.HealthUnitRepositoryArray.hasNext;;;;
+Method;healthwatcher.data.mem.HealthUnitRepositoryArray.insert;;;;
+Method;healthwatcher.data.mem.HealthUnitRepositoryArray.next;;;;
+Method;healthwatcher.data.mem.HealthUnitRepositoryArray.remove;;;;
+Method;healthwatcher.data.mem.HealthUnitRepositoryArray.reset;;;;
+Method;healthwatcher.data.mem.HealthUnitRepositoryArray.search;;;;
+Method;healthwatcher.data.mem.HealthUnitRepositoryArray.update;;;;
+Class;healthwatcher.data.mem.SpecialityRepositoryArray;;;;
+Constructor;healthwatcher.data.mem.SpecialityRepositoryArray.SpecialityRepositoryArray;;;;
+Method;healthwatcher.data.mem.SpecialityRepositoryArray.exists;;;;
+Method;healthwatcher.data.mem.SpecialityRepositoryArray.getIndex;;;;
+Method;healthwatcher.data.mem.SpecialityRepositoryArray.getSpecialityList;;;;
+Method;healthwatcher.data.mem.SpecialityRepositoryArray.hasNext;;;;
+Method;healthwatcher.data.mem.SpecialityRepositoryArray.insert;;;;
+Method;healthwatcher.data.mem.SpecialityRepositoryArray.next;;;;
+Method;healthwatcher.data.mem.SpecialityRepositoryArray.remove;;;;
+Method;healthwatcher.data.mem.SpecialityRepositoryArray.reset;;;;
+Method;healthwatcher.data.mem.SpecialityRepositoryArray.search;;;;
+Method;healthwatcher.data.mem.SpecialityRepositoryArray.update;;;;
+Class;healthwatcher.data.mem.SymptomRepositoryArray;;;;
+Constructor;healthwatcher.data.mem.SymptomRepositoryArray.SymptomRepositoryArray;;;;
+Method;healthwatcher.data.mem.SymptomRepositoryArray.exists;;;;
+Method;healthwatcher.data.mem.SymptomRepositoryArray.getIndex;;;;
+Method;healthwatcher.data.mem.SymptomRepositoryArray.getSymptomList;;;;
+Method;healthwatcher.data.mem.SymptomRepositoryArray.hasNext;;;;
+Method;healthwatcher.data.mem.SymptomRepositoryArray.insert;;;;
+Method;healthwatcher.data.mem.SymptomRepositoryArray.next;;;;
+Method;healthwatcher.data.mem.SymptomRepositoryArray.remove;;;;
+Method;healthwatcher.data.mem.SymptomRepositoryArray.reset;;;;
+Method;healthwatcher.data.mem.SymptomRepositoryArray.search;;;;
+Method;healthwatcher.data.mem.SymptomRepositoryArray.update;;;;
+Class;healthwatcher.data.rdb.AddressRepositoryRDB;;;;
+Constructor;healthwatcher.data.rdb.AddressRepositoryRDB.AddressRepositoryRDB;;;;
+Method;healthwatcher.data.rdb.AddressRepositoryRDB.exists;;;;
+Method;healthwatcher.data.rdb.AddressRepositoryRDB.insert;;;;
+Method;healthwatcher.data.rdb.AddressRepositoryRDB.remove;;;;
+Method;healthwatcher.data.rdb.AddressRepositoryRDB.search;;;;
+Method;healthwatcher.data.rdb.AddressRepositoryRDB.update;;;;
+Class;healthwatcher.data.rdb.ComplaintRepositoryRDB;;;;
+Constructor;healthwatcher.data.rdb.ComplaintRepositoryRDB.ComplaintRepositoryRDB;;;;
+Method;healthwatcher.data.rdb.ComplaintRepositoryRDB.accessAnimal;;;;
+Method;healthwatcher.data.rdb.ComplaintRepositoryRDB.accessComplaint;;;;
+Method;healthwatcher.data.rdb.ComplaintRepositoryRDB.accessFood;;;;
+Method;healthwatcher.data.rdb.ComplaintRepositoryRDB.accessSpecial;;;;
+Method;healthwatcher.data.rdb.ComplaintRepositoryRDB.deepInsertAnimal;;;;
+Method;healthwatcher.data.rdb.ComplaintRepositoryRDB.deepInsertCommon;;;;
+Method;healthwatcher.data.rdb.ComplaintRepositoryRDB.deepInsertFood;;;;
+Method;healthwatcher.data.rdb.ComplaintRepositoryRDB.deepInsertSpecial;;;;
+Method;healthwatcher.data.rdb.ComplaintRepositoryRDB.exists;;;;
+Method;healthwatcher.data.rdb.ComplaintRepositoryRDB.getComplaintList;;;;
+Method;healthwatcher.data.rdb.ComplaintRepositoryRDB.insert;;;;
+Method;healthwatcher.data.rdb.ComplaintRepositoryRDB.insertAnimal;;;;
+Method;healthwatcher.data.rdb.ComplaintRepositoryRDB.insertFood;;;;
+Method;healthwatcher.data.rdb.ComplaintRepositoryRDB.insertSpecial;;;;
+Method;healthwatcher.data.rdb.ComplaintRepositoryRDB.remove;;;;
+Method;healthwatcher.data.rdb.ComplaintRepositoryRDB.search;;;;
+Method;healthwatcher.data.rdb.ComplaintRepositoryRDB.searchTimestamp;;;;
+Method;healthwatcher.data.rdb.ComplaintRepositoryRDB.update;;;;
+Method;healthwatcher.data.rdb.ComplaintRepositoryRDB.updateTimestamp;;;;
+Class;healthwatcher.data.rdb.DiseaseTypeRepositoryRDB;;;;
+Constructor;healthwatcher.data.rdb.DiseaseTypeRepositoryRDB.DiseaseTypeRepositoryRDB;;;;
+Method;healthwatcher.data.rdb.DiseaseTypeRepositoryRDB.exists;;;;
+Method;healthwatcher.data.rdb.DiseaseTypeRepositoryRDB.filter;;;;
+Method;healthwatcher.data.rdb.DiseaseTypeRepositoryRDB.getDiseaseTypeList;;;;
+Method;healthwatcher.data.rdb.DiseaseTypeRepositoryRDB.insert;;;;
+Method;healthwatcher.data.rdb.DiseaseTypeRepositoryRDB.partialSearch;;;;
+Method;healthwatcher.data.rdb.DiseaseTypeRepositoryRDB.search;;;;
+Method;healthwatcher.data.rdb.DiseaseTypeRepositoryRDB.update;;;;
+Class;healthwatcher.data.rdb.EmployeeRepositoryRDB;;;;
+Constructor;healthwatcher.data.rdb.EmployeeRepositoryRDB.EmployeeRepositoryRDB;;;;
+Method;healthwatcher.data.rdb.EmployeeRepositoryRDB.exists;;;;
+Method;healthwatcher.data.rdb.EmployeeRepositoryRDB.insert;;;;
+Method;healthwatcher.data.rdb.EmployeeRepositoryRDB.remove;;;;
+Method;healthwatcher.data.rdb.EmployeeRepositoryRDB.search;;;;
+Method;healthwatcher.data.rdb.EmployeeRepositoryRDB.update;;;;
+Class;healthwatcher.data.rdb.HealthUnitRepositoryRDB;;;;
+Constructor;healthwatcher.data.rdb.HealthUnitRepositoryRDB.HealthUnitRepositoryRDB;;;;
+Method;healthwatcher.data.rdb.HealthUnitRepositoryRDB.exists;;;;
+Method;healthwatcher.data.rdb.HealthUnitRepositoryRDB.getHealthUnitList;;;;
+Method;healthwatcher.data.rdb.HealthUnitRepositoryRDB.getHealthUnitListBySpeciality;;;;
+Method;healthwatcher.data.rdb.HealthUnitRepositoryRDB.getPartialHealthUnitList;;;;
+Method;healthwatcher.data.rdb.HealthUnitRepositoryRDB.insert;;;;
+Method;healthwatcher.data.rdb.HealthUnitRepositoryRDB.partialSearch;;;;
+Method;healthwatcher.data.rdb.HealthUnitRepositoryRDB.remove;;;;
+Method;healthwatcher.data.rdb.HealthUnitRepositoryRDB.search;;;;
+Method;healthwatcher.data.rdb.HealthUnitRepositoryRDB.update;;;;
+Class;healthwatcher.data.rdb.SpecialityRepositoryRDB;;;;
+Constructor;healthwatcher.data.rdb.SpecialityRepositoryRDB.SpecialityRepositoryRDB;;;;
+Method;healthwatcher.data.rdb.SpecialityRepositoryRDB.exists;;;;
+Method;healthwatcher.data.rdb.SpecialityRepositoryRDB.getSpecialityList;;;;
+Method;healthwatcher.data.rdb.SpecialityRepositoryRDB.insert;;;;
+Method;healthwatcher.data.rdb.SpecialityRepositoryRDB.remove;;;;
+Method;healthwatcher.data.rdb.SpecialityRepositoryRDB.search;;;;
+Method;healthwatcher.data.rdb.SpecialityRepositoryRDB.update;;;;
+Class;healthwatcher.data.rdb.SymptomRepositoryRDB;;;;
+Constructor;healthwatcher.data.rdb.SymptomRepositoryRDB.SymptomRepositoryRDB;;;;
+Method;healthwatcher.data.rdb.SymptomRepositoryRDB.exists;;;;
+Method;healthwatcher.data.rdb.SymptomRepositoryRDB.getSymptomList;;;;
+Method;healthwatcher.data.rdb.SymptomRepositoryRDB.insert;;;;
+Method;healthwatcher.data.rdb.SymptomRepositoryRDB.remove;;;;
+Method;healthwatcher.data.rdb.SymptomRepositoryRDB.search;;;;
+Method;healthwatcher.data.rdb.SymptomRepositoryRDB.update;;;;
+Class;healthwatcher.model.address.Address;;;;
+Constructor;healthwatcher.model.address.Address.Address;;;;
+Constructor;healthwatcher.model.address.Address.Address;;;;
+Method;healthwatcher.model.address.Address.getCity;;;;
+Method;healthwatcher.model.address.Address.getCode;;;;
+Method;healthwatcher.model.address.Address.getComplement;;;;
+Method;healthwatcher.model.address.Address.getNeighbourhood;;;;
+Method;healthwatcher.model.address.Address.getPhone;;;;
+Method;healthwatcher.model.address.Address.getState;;;;
+Method;healthwatcher.model.address.Address.getStreet;;;;
+Method;healthwatcher.model.address.Address.getZip;;;;
+Method;healthwatcher.model.address.Address.setCity;;;;
+Method;healthwatcher.model.address.Address.setCode;;;;
+Method;healthwatcher.model.address.Address.setComplement;;;;
+Method;healthwatcher.model.address.Address.setNeighbourhood;;;;
+Method;healthwatcher.model.address.Address.setPhone;;;;
+Method;healthwatcher.model.address.Address.setState;;;;
+Method;healthwatcher.model.address.Address.setStreet;;;;
+Method;healthwatcher.model.address.Address.setZip;;;;
+Class;healthwatcher.model.complaint.AnimalComplaint;;;;
+Constructor;healthwatcher.model.complaint.AnimalComplaint.AnimalComplaint;;;;
+Constructor;healthwatcher.model.complaint.AnimalComplaint.AnimalComplaint;;;;
+Method;healthwatcher.model.complaint.AnimalComplaint.getAnimal;;;;
+Method;healthwatcher.model.complaint.AnimalComplaint.getAnimalQuantity;;;;
+Method;healthwatcher.model.complaint.AnimalComplaint.getInconvenienceDate;;;;
+Method;healthwatcher.model.complaint.AnimalComplaint.getOccurenceLocalAddress;;;;
+Method;healthwatcher.model.complaint.AnimalComplaint.setAnimal;;;;
+Method;healthwatcher.model.complaint.AnimalComplaint.setAnimalQuantity;;;;
+Method;healthwatcher.model.complaint.AnimalComplaint.setComplaintState;;;;
+Method;healthwatcher.model.complaint.AnimalComplaint.setInconvenienceDate;;;;
+Method;healthwatcher.model.complaint.AnimalComplaint.setOccurenceLocalAddress;;;;
+Method;healthwatcher.model.complaint.AnimalComplaint.setSituacao;;;;
+Abstract Class;healthwatcher.model.complaint.Complaint;;;;
+Constructor;healthwatcher.model.complaint.Complaint.Complaint;;;;
+Constructor;healthwatcher.model.complaint.Complaint.Complaint;;;;
+Method;healthwatcher.model.complaint.Complaint.addObserver;;;;
+Method;healthwatcher.model.complaint.Complaint.getAtendente;;;;
+Method;healthwatcher.model.complaint.Complaint.getCodigo;;;;
+Method;healthwatcher.model.complaint.Complaint.getDataParecer;;;;
+Method;healthwatcher.model.complaint.Complaint.getDataQueixa;;;;
+Method;healthwatcher.model.complaint.Complaint.getDescricao;;;;
+Method;healthwatcher.model.complaint.Complaint.getEmail;;;;
+Method;healthwatcher.model.complaint.Complaint.getEnderecoSolicitante;;;;
+Method;healthwatcher.model.complaint.Complaint.getObservacao;;;;
+Method;healthwatcher.model.complaint.Complaint.getSituacao;;;;
+Method;healthwatcher.model.complaint.Complaint.getSolicitante;;;;
+Method;healthwatcher.model.complaint.Complaint.getTimestamp;;;;
+Method;healthwatcher.model.complaint.Complaint.incTimestamp;;;;
+Method;healthwatcher.model.complaint.Complaint.notifyObservers;;;;
+Method;healthwatcher.model.complaint.Complaint.removeObserver;;;;
+Method;healthwatcher.model.complaint.Complaint.setAtendente;;;;
+Method;healthwatcher.model.complaint.Complaint.setCodigo;;;;
+Method;healthwatcher.model.complaint.Complaint.setComplaintState;;;;
+Method;healthwatcher.model.complaint.Complaint.setDataParecer;;;;
+Method;healthwatcher.model.complaint.Complaint.setDataQueixa;;;;
+Method;healthwatcher.model.complaint.Complaint.setDescricao;;;;
+Method;healthwatcher.model.complaint.Complaint.setEmail;;;;
+Method;healthwatcher.model.complaint.Complaint.setEnderecoSolicitante;;;;
+Method;healthwatcher.model.complaint.Complaint.setObservacao;;;;
+Method;healthwatcher.model.complaint.Complaint.setSituacao;;;;
+Method;healthwatcher.model.complaint.Complaint.setSolicitante;;;;
+Method;healthwatcher.model.complaint.Complaint.setTimestamp;;;;
+Class;healthwatcher.model.complaint.DiseaseType;;;;
+Constructor;healthwatcher.model.complaint.DiseaseType.DiseaseType;;;;
+Constructor;healthwatcher.model.complaint.DiseaseType.DiseaseType;;;;
+Method;healthwatcher.model.complaint.DiseaseType.delete;;;;
+Method;healthwatcher.model.complaint.DiseaseType.getCode;;;;
+Method;healthwatcher.model.complaint.DiseaseType.getDescription;;;;
+Method;healthwatcher.model.complaint.DiseaseType.getDuration;;;;
+Method;healthwatcher.model.complaint.DiseaseType.getManifestation;;;;
+Method;healthwatcher.model.complaint.DiseaseType.getName;;;;
+Method;healthwatcher.model.complaint.DiseaseType.getSymptoms;;;;
+Method;healthwatcher.model.complaint.DiseaseType.setCode;;;;
+Method;healthwatcher.model.complaint.DiseaseType.setDescription;;;;
+Method;healthwatcher.model.complaint.DiseaseType.setDuration;;;;
+Method;healthwatcher.model.complaint.DiseaseType.setManifestation;;;;
+Method;healthwatcher.model.complaint.DiseaseType.setName;;;;
+Method;healthwatcher.model.complaint.DiseaseType.setSymptoms;;;;
+Class;healthwatcher.model.complaint.FoodComplaint;;;;
+Constructor;healthwatcher.model.complaint.FoodComplaint.FoodComplaint;;;;
+Constructor;healthwatcher.model.complaint.FoodComplaint.FoodComplaint;;;;
+Method;healthwatcher.model.complaint.FoodComplaint.getEnderecoDoente;;;;
+Method;healthwatcher.model.complaint.FoodComplaint.getLocalAtendimento;;;;
+Method;healthwatcher.model.complaint.FoodComplaint.getQtdeComensais;;;;
+Method;healthwatcher.model.complaint.FoodComplaint.getQtdeDoentes;;;;
+Method;healthwatcher.model.complaint.FoodComplaint.getQtdeInternacoes;;;;
+Method;healthwatcher.model.complaint.FoodComplaint.getQtdeObitos;;;;
+Method;healthwatcher.model.complaint.FoodComplaint.getRefeicaoSuspeita;;;;
+Method;healthwatcher.model.complaint.FoodComplaint.setComplaintState;;;;
+Method;healthwatcher.model.complaint.FoodComplaint.setEnderecoDoente;;;;
+Method;healthwatcher.model.complaint.FoodComplaint.setLocalAtendimento;;;;
+Method;healthwatcher.model.complaint.FoodComplaint.setQtdeComensais;;;;
+Method;healthwatcher.model.complaint.FoodComplaint.setQtdeDoentes;;;;
+Method;healthwatcher.model.complaint.FoodComplaint.setQtdeInternacoes;;;;
+Method;healthwatcher.model.complaint.FoodComplaint.setQtdeObitos;;;;
+Method;healthwatcher.model.complaint.FoodComplaint.setRefeicaoSuspeita;;;;
+Method;healthwatcher.model.complaint.FoodComplaint.setSituacao;;;;
+Class;healthwatcher.model.complaint.Situation;;;;
+Constructor;healthwatcher.model.complaint.Situation.Situation;;;;
+Method;healthwatcher.model.complaint.Situation.getCode;;;;
+Method;healthwatcher.model.complaint.Situation.getDescription;;;;
+Class;healthwatcher.model.complaint.SpecialComplaint;;;;
+Constructor;healthwatcher.model.complaint.SpecialComplaint.SpecialComplaint;;;;
+Constructor;healthwatcher.model.complaint.SpecialComplaint.SpecialComplaint;;;;
+Method;healthwatcher.model.complaint.SpecialComplaint.getEnderecoOcorrencia;;;;
+Method;healthwatcher.model.complaint.SpecialComplaint.getIdade;;;;
+Method;healthwatcher.model.complaint.SpecialComplaint.getInstrucao;;;;
+Method;healthwatcher.model.complaint.SpecialComplaint.getOcupacao;;;;
+Method;healthwatcher.model.complaint.SpecialComplaint.setComplaintState;;;;
+Method;healthwatcher.model.complaint.SpecialComplaint.setEnderecoOcorrencia;;;;
+Method;healthwatcher.model.complaint.SpecialComplaint.setIdade;;;;
+Method;healthwatcher.model.complaint.SpecialComplaint.setInstrucao;;;;
+Method;healthwatcher.model.complaint.SpecialComplaint.setOcupacao;;;;
+Method;healthwatcher.model.complaint.SpecialComplaint.setSituacao;;;;
+Class;healthwatcher.model.complaint.Symptom;;;;
+Constructor;healthwatcher.model.complaint.Symptom.Symptom;;;;
+Method;healthwatcher.model.complaint.Symptom.addObserver;;;;
+Method;healthwatcher.model.complaint.Symptom.getCode;;;;
+Method;healthwatcher.model.complaint.Symptom.getDescription;;;;
+Method;healthwatcher.model.complaint.Symptom.notifyObservers;;;;
+Method;healthwatcher.model.complaint.Symptom.removeObserver;;;;
+Method;healthwatcher.model.complaint.Symptom.setCode;;;;
+Method;healthwatcher.model.complaint.Symptom.setDescription;;;;
+Abstract Class;healthwatcher.model.complaint.state.AnimalComplaintState;;;;
+Constructor;healthwatcher.model.complaint.state.AnimalComplaintState.AnimalComplaintState;;;;
+Constructor;healthwatcher.model.complaint.state.AnimalComplaintState.AnimalComplaintState;;;;
+Method;healthwatcher.model.complaint.state.AnimalComplaintState.getAnimal;;;;
+Method;healthwatcher.model.complaint.state.AnimalComplaintState.getDataIncomodo;;;;
+Method;healthwatcher.model.complaint.state.AnimalComplaintState.getEnderecoLocalOcorrencia;;;;
+Method;healthwatcher.model.complaint.state.AnimalComplaintState.getQtdeAnimais;;;;
+Method;healthwatcher.model.complaint.state.AnimalComplaintState.getTipoAnimal;;;;
+Abstract Method;healthwatcher.model.complaint.state.AnimalComplaintState.setAnimal;;;;
+Abstract Method;healthwatcher.model.complaint.state.AnimalComplaintState.setDataIncomodo;;;;
+Abstract Method;healthwatcher.model.complaint.state.AnimalComplaintState.setEnderecoLocalOcorrencia;;;;
+Abstract Method;healthwatcher.model.complaint.state.AnimalComplaintState.setQtdeAnimais;;;;
+Method;healthwatcher.model.complaint.state.AnimalComplaintState.setStatus;;;;
+Abstract Method;healthwatcher.model.complaint.state.AnimalComplaintState.setTipoAnimal;;;;
+Class;healthwatcher.model.complaint.state.AnimalComplaintStateClosed;;;;
+Constructor;healthwatcher.model.complaint.state.AnimalComplaintStateClosed.AnimalComplaintStateClosed;;;;
+Constructor;healthwatcher.model.complaint.state.AnimalComplaintStateClosed.AnimalComplaintStateClosed;;;;
+Method;healthwatcher.model.complaint.state.AnimalComplaintStateClosed.setAnimal;;;;
+Method;healthwatcher.model.complaint.state.AnimalComplaintStateClosed.setDataIncomodo;;;;
+Method;healthwatcher.model.complaint.state.AnimalComplaintStateClosed.setEnderecoLocalOcorrencia;;;;
+Method;healthwatcher.model.complaint.state.AnimalComplaintStateClosed.setQtdeAnimais;;;;
+Method;healthwatcher.model.complaint.state.AnimalComplaintStateClosed.setTipoAnimal;;;;
+Class;healthwatcher.model.complaint.state.AnimalComplaintStateOpen;;;;
+Constructor;healthwatcher.model.complaint.state.AnimalComplaintStateOpen.AnimalComplaintStateOpen;;;;
+Constructor;healthwatcher.model.complaint.state.AnimalComplaintStateOpen.AnimalComplaintStateOpen;;;;
+Method;healthwatcher.model.complaint.state.AnimalComplaintStateOpen.setAnimal;;;;
+Method;healthwatcher.model.complaint.state.AnimalComplaintStateOpen.setDataIncomodo;;;;
+Method;healthwatcher.model.complaint.state.AnimalComplaintStateOpen.setEnderecoLocalOcorrencia;;;;
+Method;healthwatcher.model.complaint.state.AnimalComplaintStateOpen.setQtdeAnimais;;;;
+Method;healthwatcher.model.complaint.state.AnimalComplaintStateOpen.setTipoAnimal;;;;
+Abstract Class;healthwatcher.model.complaint.state.ComplaintState;;;;
+Constructor;healthwatcher.model.complaint.state.ComplaintState.ComplaintState;;;;
+Constructor;healthwatcher.model.complaint.state.ComplaintState.ComplaintState;;;;
+Method;healthwatcher.model.complaint.state.ComplaintState.getAttendant;;;;
+Method;healthwatcher.model.complaint.state.ComplaintState.getCode;;;;
+Method;healthwatcher.model.complaint.state.ComplaintState.getComplainer;;;;
+Method;healthwatcher.model.complaint.state.ComplaintState.getComplainerAddress;;;;
+Method;healthwatcher.model.complaint.state.ComplaintState.getComplaintDate;;;;
+Method;healthwatcher.model.complaint.state.ComplaintState.getDescription;;;;
+Method;healthwatcher.model.complaint.state.ComplaintState.getEmail;;;;
+Method;healthwatcher.model.complaint.state.ComplaintState.getMedicalOpinionDate;;;;
+Method;healthwatcher.model.complaint.state.ComplaintState.getObservation;;;;
+Abstract Method;healthwatcher.model.complaint.state.ComplaintState.getStatus;;;;
+Method;healthwatcher.model.complaint.state.ComplaintState.getTimestamp;;;;
+Method;healthwatcher.model.complaint.state.ComplaintState.incTimestamp;;;;
+Abstract Method;healthwatcher.model.complaint.state.ComplaintState.setAttendant;;;;
+Abstract Method;healthwatcher.model.complaint.state.ComplaintState.setCode;;;;
+Abstract Method;healthwatcher.model.complaint.state.ComplaintState.setComplainer;;;;
+Abstract Method;healthwatcher.model.complaint.state.ComplaintState.setComplainerAddress;;;;
+Abstract Method;healthwatcher.model.complaint.state.ComplaintState.setComplaintDate;;;;
+Abstract Method;healthwatcher.model.complaint.state.ComplaintState.setDescription;;;;
+Abstract Method;healthwatcher.model.complaint.state.ComplaintState.setEmail;;;;
+Abstract Method;healthwatcher.model.complaint.state.ComplaintState.setMedicalOpinionDate;;;;
+Abstract Method;healthwatcher.model.complaint.state.ComplaintState.setObservation;;;;
+Method;healthwatcher.model.complaint.state.ComplaintState.setStatus;;;;
+Abstract Method;healthwatcher.model.complaint.state.ComplaintState.setTimestamp;;;;
+Class;healthwatcher.model.complaint.state.ComplaintStateClosed;;;;
+Constructor;healthwatcher.model.complaint.state.ComplaintStateClosed.ComplaintStateClosed;;;;
+Constructor;healthwatcher.model.complaint.state.ComplaintStateClosed.ComplaintStateClosed;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateClosed.getStatus;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateClosed.setAttendant;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateClosed.setCode;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateClosed.setComplainer;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateClosed.setComplainerAddress;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateClosed.setComplaintDate;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateClosed.setDescription;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateClosed.setEmail;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateClosed.setMedicalOpinionDate;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateClosed.setObservation;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateClosed.setSituacao;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateClosed.setTimestamp;;;;
+Class;healthwatcher.model.complaint.state.ComplaintStateOpen;;;;
+Constructor;healthwatcher.model.complaint.state.ComplaintStateOpen.ComplaintStateOpen;;;;
+Constructor;healthwatcher.model.complaint.state.ComplaintStateOpen.ComplaintStateOpen;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateOpen.getStatus;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateOpen.setAttendant;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateOpen.setCode;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateOpen.setComplainer;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateOpen.setComplainerAddress;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateOpen.setComplaintDate;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateOpen.setDescription;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateOpen.setEmail;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateOpen.setMedicalOpinionDate;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateOpen.setObservation;;;;
+Method;healthwatcher.model.complaint.state.ComplaintStateOpen.setTimestamp;;;;
+Abstract Class;healthwatcher.model.complaint.state.FoodComplaintState;;;;
+Constructor;healthwatcher.model.complaint.state.FoodComplaintState.FoodComplaintState;;;;
+Constructor;healthwatcher.model.complaint.state.FoodComplaintState.FoodComplaintState;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintState.getEnderecoDoente;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintState.getLocalAtendimento;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintState.getQtdeComensais;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintState.getQtdeDoentes;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintState.getQtdeInternacoes;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintState.getQtdeObitos;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintState.getRefeicaoSuspeita;;;;
+Abstract Method;healthwatcher.model.complaint.state.FoodComplaintState.setEnderecoDoente;;;;
+Abstract Method;healthwatcher.model.complaint.state.FoodComplaintState.setLocalAtendimento;;;;
+Abstract Method;healthwatcher.model.complaint.state.FoodComplaintState.setQtdeComensais;;;;
+Abstract Method;healthwatcher.model.complaint.state.FoodComplaintState.setQtdeDoentes;;;;
+Abstract Method;healthwatcher.model.complaint.state.FoodComplaintState.setQtdeInternacoes;;;;
+Abstract Method;healthwatcher.model.complaint.state.FoodComplaintState.setQtdeObitos;;;;
+Abstract Method;healthwatcher.model.complaint.state.FoodComplaintState.setRefeicaoSuspeita;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintState.setStatus;;;;
+Class;healthwatcher.model.complaint.state.FoodComplaintStateClosed;;;;
+Constructor;healthwatcher.model.complaint.state.FoodComplaintStateClosed.FoodComplaintStateClosed;;;;
+Constructor;healthwatcher.model.complaint.state.FoodComplaintStateClosed.FoodComplaintStateClosed;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintStateClosed.setEnderecoDoente;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintStateClosed.setLocalAtendimento;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintStateClosed.setQtdeComensais;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintStateClosed.setQtdeDoentes;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintStateClosed.setQtdeInternacoes;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintStateClosed.setQtdeObitos;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintStateClosed.setRefeicaoSuspeita;;;;
+Class;healthwatcher.model.complaint.state.FoodComplaintStateOpen;;;;
+Constructor;healthwatcher.model.complaint.state.FoodComplaintStateOpen.FoodComplaintStateOpen;;;;
+Constructor;healthwatcher.model.complaint.state.FoodComplaintStateOpen.FoodComplaintStateOpen;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintStateOpen.setEnderecoDoente;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintStateOpen.setLocalAtendimento;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintStateOpen.setQtdeComensais;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintStateOpen.setQtdeDoentes;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintStateOpen.setQtdeInternacoes;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintStateOpen.setQtdeObitos;;;;
+Method;healthwatcher.model.complaint.state.FoodComplaintStateOpen.setRefeicaoSuspeita;;;;
+Abstract Class;healthwatcher.model.complaint.state.SpecialComplaintState;;;;
+Constructor;healthwatcher.model.complaint.state.SpecialComplaintState.SpecialComplaintState;;;;
+Constructor;healthwatcher.model.complaint.state.SpecialComplaintState.SpecialComplaintState;;;;
+Method;healthwatcher.model.complaint.state.SpecialComplaintState.getEnderecoOcorrencia;;;;
+Method;healthwatcher.model.complaint.state.SpecialComplaintState.getIdade;;;;
+Method;healthwatcher.model.complaint.state.SpecialComplaintState.getInstrucao;;;;
+Method;healthwatcher.model.complaint.state.SpecialComplaintState.getOcupacao;;;;
+Abstract Method;healthwatcher.model.complaint.state.SpecialComplaintState.setEnderecoOcorrencia;;;;
+Abstract Method;healthwatcher.model.complaint.state.SpecialComplaintState.setIdade;;;;
+Abstract Method;healthwatcher.model.complaint.state.SpecialComplaintState.setInstrucao;;;;
+Abstract Method;healthwatcher.model.complaint.state.SpecialComplaintState.setOcupacao;;;;
+Method;healthwatcher.model.complaint.state.SpecialComplaintState.setStatus;;;;
+Class;healthwatcher.model.complaint.state.SpecialComplaintStateClosed;;;;
+Constructor;healthwatcher.model.complaint.state.SpecialComplaintStateClosed.SpecialComplaintStateClosed;;;;
+Constructor;healthwatcher.model.complaint.state.SpecialComplaintStateClosed.SpecialComplaintStateClosed;;;;
+Method;healthwatcher.model.complaint.state.SpecialComplaintStateClosed.setEnderecoOcorrencia;;;;
+Method;healthwatcher.model.complaint.state.SpecialComplaintStateClosed.setIdade;;;;
+Method;healthwatcher.model.complaint.state.SpecialComplaintStateClosed.setInstrucao;;;;
+Method;healthwatcher.model.complaint.state.SpecialComplaintStateClosed.setOcupacao;;;;
+Class;healthwatcher.model.complaint.state.SpecialComplaintStateOpen;;;;
+Constructor;healthwatcher.model.complaint.state.SpecialComplaintStateOpen.SpecialComplaintStateOpen;;;;
+Constructor;healthwatcher.model.complaint.state.SpecialComplaintStateOpen.SpecialComplaintStateOpen;;;;
+Method;healthwatcher.model.complaint.state.SpecialComplaintStateOpen.setEnderecoOcorrencia;;;;
+Method;healthwatcher.model.complaint.state.SpecialComplaintStateOpen.setIdade;;;;
+Method;healthwatcher.model.complaint.state.SpecialComplaintStateOpen.setInstrucao;;;;
+Method;healthwatcher.model.complaint.state.SpecialComplaintStateOpen.setOcupacao;;;;
+Class;healthwatcher.model.employee.Employee;;;;
+Constructor;healthwatcher.model.employee.Employee.Employee;;;;
+Method;healthwatcher.model.employee.Employee.addObserver;;;;
+Method;healthwatcher.model.employee.Employee.getLogin;;;;
+Method;healthwatcher.model.employee.Employee.getName;;;;
+Method;healthwatcher.model.employee.Employee.getPassword;;;;
+Method;healthwatcher.model.employee.Employee.notifyObservers;;;;
+Method;healthwatcher.model.employee.Employee.removeObserver;;;;
+Method;healthwatcher.model.employee.Employee.setLogin;;;;
+Method;healthwatcher.model.employee.Employee.setName;;;;
+Method;healthwatcher.model.employee.Employee.setPassword;;;;
+Method;healthwatcher.model.employee.Employee.validatePassword;;;;
+Class;healthwatcher.model.healthguide.HealthUnit;;;;
+Constructor;healthwatcher.model.healthguide.HealthUnit.HealthUnit;;;;
+Constructor;healthwatcher.model.healthguide.HealthUnit.HealthUnit;;;;
+Method;healthwatcher.model.healthguide.HealthUnit.addObserver;;;;
+Method;healthwatcher.model.healthguide.HealthUnit.getCode;;;;
+Method;healthwatcher.model.healthguide.HealthUnit.getDescription;;;;
+Method;healthwatcher.model.healthguide.HealthUnit.getSpecialities;;;;
+Method;healthwatcher.model.healthguide.HealthUnit.hasSpeciality;;;;
+Method;healthwatcher.model.healthguide.HealthUnit.notifyObservers;;;;
+Method;healthwatcher.model.healthguide.HealthUnit.removeObserver;;;;
+Method;healthwatcher.model.healthguide.HealthUnit.setCode;;;;
+Method;healthwatcher.model.healthguide.HealthUnit.setDescription;;;;
+Method;healthwatcher.model.healthguide.HealthUnit.toString;;;;
+Class;healthwatcher.model.healthguide.MedicalSpeciality;;;;
+Constructor;healthwatcher.model.healthguide.MedicalSpeciality.MedicalSpeciality;;;;
+Method;healthwatcher.model.healthguide.MedicalSpeciality.addObserver;;;;
+Method;healthwatcher.model.healthguide.MedicalSpeciality.getCodigo;;;;
+Method;healthwatcher.model.healthguide.MedicalSpeciality.getDescricao;;;;
+Method;healthwatcher.model.healthguide.MedicalSpeciality.notifyObservers;;;;
+Method;healthwatcher.model.healthguide.MedicalSpeciality.removeObserver;;;;
+Method;healthwatcher.model.healthguide.MedicalSpeciality.setCodigo;;;;
+Method;healthwatcher.model.healthguide.MedicalSpeciality.setDescricao;;;;
+Method;healthwatcher.model.healthguide.MedicalSpeciality.toString;;;;
+Interface;healthwatcher.view.IFacade;;;;
+Abstract Method;healthwatcher.view.IFacade.getComplaintList;;;;1
+Abstract Method;healthwatcher.view.IFacade.getDiseaseTypeList;;;;1
+Abstract Method;healthwatcher.view.IFacade.getHealthUnitList;;;;1
+Abstract Method;healthwatcher.view.IFacade.getPartialHealthUnitList;;;;1
+Abstract Method;healthwatcher.view.IFacade.getSpecialityList;;;;1
+Abstract Method;healthwatcher.view.IFacade.getSymptomList;;;;1
+Abstract Method;healthwatcher.view.IFacade.insert;;;;1
+Abstract Method;healthwatcher.view.IFacade.insert;;;;1
+Abstract Method;healthwatcher.view.IFacade.insert;;;;1
+Abstract Method;healthwatcher.view.IFacade.insert;;;;1
+Abstract Method;healthwatcher.view.IFacade.insert;;;;1
+Abstract Method;healthwatcher.view.IFacade.insertComplaint;;;;1
+Abstract Method;healthwatcher.view.IFacade.searchComplaint;;;;1
+Abstract Method;healthwatcher.view.IFacade.searchDiseaseType;;;;1
+Abstract Method;healthwatcher.view.IFacade.searchEmployee;;;;1
+Abstract Method;healthwatcher.view.IFacade.searchHealthUnit;;;;1
+Abstract Method;healthwatcher.view.IFacade.searchHealthUnitsBySpeciality;;;;1
+Abstract Method;healthwatcher.view.IFacade.searchSpecialitiesByCode;;;;1
+Abstract Method;healthwatcher.view.IFacade.searchSpecialitiesByHealthUnit;;;;1
+Abstract Method;healthwatcher.view.IFacade.searchSymptom;;;;1
+Abstract Method;healthwatcher.view.IFacade.updateComplaint;;;;1
+Abstract Method;healthwatcher.view.IFacade.updateEmployee;;;;1
+Abstract Method;healthwatcher.view.IFacade.updateHealthUnit;;;;1
+Abstract Method;healthwatcher.view.IFacade.updateMedicalSpeciality;;;;1
+Abstract Method;healthwatcher.view.IFacade.updateSymptom;;;;1
+Class;healthwatcher.view.RMIServletAdapter;;;;
+Constructor;healthwatcher.view.RMIServletAdapter.RMIServletAdapter;;;;1
+Method;healthwatcher.view.RMIServletAdapter.connect;;;;1
+Method;healthwatcher.view.RMIServletAdapter.getComplaintList;;;;1
+Method;healthwatcher.view.RMIServletAdapter.getDiseaseTypeList;;;;1
+Method;healthwatcher.view.RMIServletAdapter.getHealthUnitList;;;;1
+Method;healthwatcher.view.RMIServletAdapter.getPartialHealthUnitList;;;;1
+Method;healthwatcher.view.RMIServletAdapter.getSpecialityList;;;;1
+Method;healthwatcher.view.RMIServletAdapter.getSymptomList;;;;1
+Method;healthwatcher.view.RMIServletAdapter.insert;;;;1
+Method;healthwatcher.view.RMIServletAdapter.insert;;;;1
+Method;healthwatcher.view.RMIServletAdapter.insert;;;;1
+Method;healthwatcher.view.RMIServletAdapter.insert;;;;1
+Method;healthwatcher.view.RMIServletAdapter.insert;;;;1
+Method;healthwatcher.view.RMIServletAdapter.insertComplaint;;;;1
+Method;healthwatcher.view.RMIServletAdapter.notify;;;;1
+Method;healthwatcher.view.RMIServletAdapter.rmiInitExceptionHandling;;;;1
+Method;healthwatcher.view.RMIServletAdapter.searchComplaint;;;;1
+Method;healthwatcher.view.RMIServletAdapter.searchDiseaseType;;;;1
+Method;healthwatcher.view.RMIServletAdapter.searchEmployee;;;;1
+Method;healthwatcher.view.RMIServletAdapter.searchHealthUnit;;;;1
+Method;healthwatcher.view.RMIServletAdapter.searchHealthUnitsBySpeciality;;;;1
+Method;healthwatcher.view.RMIServletAdapter.searchSpecialitiesByCode;;;;1
+Method;healthwatcher.view.RMIServletAdapter.searchSpecialitiesByHealthUnit;;;;1
+Method;healthwatcher.view.RMIServletAdapter.searchSymptom;;;;1
+Method;healthwatcher.view.RMIServletAdapter.updateComplaint;;;;1
+Method;healthwatcher.view.RMIServletAdapter.updateEmployee;;;;1
+Method;healthwatcher.view.RMIServletAdapter.updateHealthUnit;;;;1
+Method;healthwatcher.view.RMIServletAdapter.updateMedicalSpeciality;;;;1
+Method;healthwatcher.view.RMIServletAdapter.updateSymptom;;;;1
+Abstract Class;healthwatcher.view.command.Command;;;;
+Constructor;healthwatcher.view.command.Command.Command;;;;
+Abstract Method;healthwatcher.view.command.Command.execute;;;;
+Method;healthwatcher.view.command.Command.setReponse;;;;
+Method;healthwatcher.view.command.Command.setRequest;;;;
+Interface;healthwatcher.view.command.CommandRequest;;;;
+Abstract Method;healthwatcher.view.command.CommandRequest.get;;;;
+Abstract Method;healthwatcher.view.command.CommandRequest.getInput;;;;
+Abstract Method;healthwatcher.view.command.CommandRequest.isAuthorized;;;;
+Abstract Method;healthwatcher.view.command.CommandRequest.put;;;;
+Abstract Method;healthwatcher.view.command.CommandRequest.reset;;;;
+Abstract Method;healthwatcher.view.command.CommandRequest.setAuthorized;;;;
+Interface;healthwatcher.view.command.CommandResponse;;;;
+Abstract Method;healthwatcher.view.command.CommandResponse.getWriter;;;;
+Class;healthwatcher.view.command.ConfigRMI;;;;
+Constructor;healthwatcher.view.command.ConfigRMI.ConfigRMI;;;;
+Method;healthwatcher.view.command.ConfigRMI.execute;;;;
+Class;healthwatcher.view.command.GetDataForSearchByDiseaseType;;;;1
+Constructor;healthwatcher.view.command.GetDataForSearchByDiseaseType.GetDataForSearchByDiseaseType;;;;
+Method;healthwatcher.view.command.GetDataForSearchByDiseaseType.execute;;;;1
+Class;healthwatcher.view.command.GetDataForSearchByHealthUnit;;;;1
+Constructor;healthwatcher.view.command.GetDataForSearchByHealthUnit.GetDataForSearchByHealthUnit;;;;
+Method;healthwatcher.view.command.GetDataForSearchByHealthUnit.execute;;;;1
+Class;healthwatcher.view.command.GetDataForSearchBySpeciality;;;;1
+Constructor;healthwatcher.view.command.GetDataForSearchBySpeciality.GetDataForSearchBySpeciality;;;;
+Method;healthwatcher.view.command.GetDataForSearchBySpeciality.execute;;;;1
+Class;healthwatcher.view.command.InsertAnimalComplaint;;;;1
+Constructor;healthwatcher.view.command.InsertAnimalComplaint.InsertAnimalComplaint;;;;
+Method;healthwatcher.view.command.InsertAnimalComplaint.execute;;;;1
+Class;healthwatcher.view.command.InsertDiseaseType;;;;1
+Constructor;healthwatcher.view.command.InsertDiseaseType.InsertDiseaseType;;;;
+Method;healthwatcher.view.command.InsertDiseaseType.execute;;;;1
+Class;healthwatcher.view.command.InsertEmployee;;;;1
+Constructor;healthwatcher.view.command.InsertEmployee.InsertEmployee;;;;
+Method;healthwatcher.view.command.InsertEmployee.execute;;;;1
+Class;healthwatcher.view.command.InsertFoodComplaint;;;;1
+Constructor;healthwatcher.view.command.InsertFoodComplaint.InsertFoodComplaint;;;;
+Method;healthwatcher.view.command.InsertFoodComplaint.execute;;;;1
+Class;healthwatcher.view.command.InsertHealthUnit;;;;1
+Constructor;healthwatcher.view.command.InsertHealthUnit.InsertHealthUnit;;;;
+Method;healthwatcher.view.command.InsertHealthUnit.execute;;;;1
+Class;healthwatcher.view.command.InsertMedicalSpeciality;;;;
+Constructor;healthwatcher.view.command.InsertMedicalSpeciality.InsertMedicalSpeciality;;;;
+Method;healthwatcher.view.command.InsertMedicalSpeciality.execute;;;;1
+Class;healthwatcher.view.command.InsertSpecialComplaint;;;;1
+Constructor;healthwatcher.view.command.InsertSpecialComplaint.InsertSpecialComplaint;;;;
+Method;healthwatcher.view.command.InsertSpecialComplaint.execute;;;;1
+Class;healthwatcher.view.command.InsertSymptom;;;;1
+Constructor;healthwatcher.view.command.InsertSymptom.InsertSymptom;;;;
+Method;healthwatcher.view.command.InsertSymptom.execute;;;;1
+Class;healthwatcher.view.command.Login;;;;1
+Constructor;healthwatcher.view.command.Login.Login;;;;
+Method;healthwatcher.view.command.Login.execute;;;;1
+Class;healthwatcher.view.command.LoginMenu;;;;
+Constructor;healthwatcher.view.command.LoginMenu.LoginMenu;;;;
+Method;healthwatcher.view.command.LoginMenu.execute;;;;1
+Class;healthwatcher.view.command.SearchComplaintData;;;;1
+Constructor;healthwatcher.view.command.SearchComplaintData.SearchComplaintData;;;;
+Method;healthwatcher.view.command.SearchComplaintData.execute;;;;1
+Class;healthwatcher.view.command.SearchDiseaseData;;;;1
+Constructor;healthwatcher.view.command.SearchDiseaseData.SearchDiseaseData;;;;
+Method;healthwatcher.view.command.SearchDiseaseData.execute;;;;1
+Class;healthwatcher.view.command.SearchHealthUnitsBySpecialty;;;;1
+Constructor;healthwatcher.view.command.SearchHealthUnitsBySpecialty.SearchHealthUnitsBySpecialty;;;;
+Method;healthwatcher.view.command.SearchHealthUnitsBySpecialty.execute;;;;1
+Class;healthwatcher.view.command.SearchSpecialtiesByHealthUnit;;;;1
+Constructor;healthwatcher.view.command.SearchSpecialtiesByHealthUnit.SearchSpecialtiesByHealthUnit;;;;
+Method;healthwatcher.view.command.SearchSpecialtiesByHealthUnit.execute;;;;1
+Class;healthwatcher.view.command.UpdateComplaintData;;;;1
+Constructor;healthwatcher.view.command.UpdateComplaintData.UpdateComplaintData;;;;
+Method;healthwatcher.view.command.UpdateComplaintData.execute;;;;1
+Class;healthwatcher.view.command.UpdateComplaintList;;;;1
+Constructor;healthwatcher.view.command.UpdateComplaintList.UpdateComplaintList;;;;
+Method;healthwatcher.view.command.UpdateComplaintList.execute;;;;1
+Class;healthwatcher.view.command.UpdateComplaintSearch;;;;1
+Constructor;healthwatcher.view.command.UpdateComplaintSearch.UpdateComplaintSearch;;;;
+Method;healthwatcher.view.command.UpdateComplaintSearch.execute;;;;1
+Class;healthwatcher.view.command.UpdateEmployeeData;;;;1
+Constructor;healthwatcher.view.command.UpdateEmployeeData.UpdateEmployeeData;;;;
+Method;healthwatcher.view.command.UpdateEmployeeData.execute;;;;1
+Class;healthwatcher.view.command.UpdateEmployeeSearch;;;;1
+Constructor;healthwatcher.view.command.UpdateEmployeeSearch.UpdateEmployeeSearch;;;;
+Method;healthwatcher.view.command.UpdateEmployeeSearch.execute;;;;1
+Class;healthwatcher.view.command.UpdateHealthUnitData;;;;1
+Constructor;healthwatcher.view.command.UpdateHealthUnitData.UpdateHealthUnitData;;;;
+Method;healthwatcher.view.command.UpdateHealthUnitData.execute;;;;1
+Class;healthwatcher.view.command.UpdateHealthUnitList;;;;1
+Constructor;healthwatcher.view.command.UpdateHealthUnitList.UpdateHealthUnitList;;;;
+Method;healthwatcher.view.command.UpdateHealthUnitList.execute;;;;1
+Class;healthwatcher.view.command.UpdateHealthUnitSearch;;;;1
+Constructor;healthwatcher.view.command.UpdateHealthUnitSearch.UpdateHealthUnitSearch;;;;
+Method;healthwatcher.view.command.UpdateHealthUnitSearch.execute;;;;1
+Class;healthwatcher.view.command.UpdateMedicalSpecialityData;;;;1
+Constructor;healthwatcher.view.command.UpdateMedicalSpecialityData.UpdateMedicalSpecialityData;;;;
+Method;healthwatcher.view.command.UpdateMedicalSpecialityData.execute;;;;1
+Class;healthwatcher.view.command.UpdateMedicalSpecialityList;;;;1
+Constructor;healthwatcher.view.command.UpdateMedicalSpecialityList.UpdateMedicalSpecialityList;;;;
+Method;healthwatcher.view.command.UpdateMedicalSpecialityList.execute;;;;1
+Class;healthwatcher.view.command.UpdateMedicalSpecialitySearch;;;;1
+Constructor;healthwatcher.view.command.UpdateMedicalSpecialitySearch.UpdateMedicalSpecialitySearch;;;;
+Method;healthwatcher.view.command.UpdateMedicalSpecialitySearch.execute;;;;1
+Class;healthwatcher.view.command.UpdateSymptomData;;;;1
+Constructor;healthwatcher.view.command.UpdateSymptomData.UpdateSymptomData;;;;
+Method;healthwatcher.view.command.UpdateSymptomData.execute;;;;1
+Class;healthwatcher.view.command.UpdateSymptomList;;;;1
+Constructor;healthwatcher.view.command.UpdateSymptomList.UpdateSymptomList;;;;
+Method;healthwatcher.view.command.UpdateSymptomList.execute;;;;1
+Class;healthwatcher.view.command.UpdateSymptomSearch;;;;1
+Constructor;healthwatcher.view.command.UpdateSymptomSearch.UpdateSymptomSearch;;;;
+Method;healthwatcher.view.command.UpdateSymptomSearch.execute;;;;1
+Class;healthwatcher.view.servlets.HWServlet;;;;1
+Method;healthwatcher.view.servlets.HWServlet.doGet;;;;
+Method;healthwatcher.view.servlets.HWServlet.doPost;;;;
+Method;healthwatcher.view.servlets.HWServlet.getCommand;;;;
+Method;healthwatcher.view.servlets.HWServlet.handleRequest;;;;
+Method;healthwatcher.view.servlets.HWServlet.init;;;;
+Method;healthwatcher.view.servlets.HWServlet.initCommands;;;;
+Method;healthwatcher.view.servlets.HWServlet.initFacade;;;;
+Method;healthwatcher.view.servlets.HWServlet.retry;;;;
+Class;healthwatcher.view.servlets.ServletRequestAdapter;;;;
+Constructor;healthwatcher.view.servlets.ServletRequestAdapter.ServletRequestAdapter;;;;
+Method;healthwatcher.view.servlets.ServletRequestAdapter.get;;;;
+Method;healthwatcher.view.servlets.ServletRequestAdapter.getInput;;;;
+Method;healthwatcher.view.servlets.ServletRequestAdapter.isAuthorized;;;;
+Method;healthwatcher.view.servlets.ServletRequestAdapter.put;;;;
+Method;healthwatcher.view.servlets.ServletRequestAdapter.reset;;;;
+Method;healthwatcher.view.servlets.ServletRequestAdapter.setAuthorized;;;;
+Class;healthwatcher.view.servlets.ServletResponseAdapter;;;;
+Constructor;healthwatcher.view.servlets.ServletResponseAdapter.ServletResponseAdapter;;;;
+Method;healthwatcher.view.servlets.ServletResponseAdapter.getWriter;;;;
+Class;healthwatcher.view.servlets.ServletWebServer;;;;
+Method;healthwatcher.view.servlets.ServletWebServer.doGet;;;;
+Method;healthwatcher.view.servlets.ServletWebServer.doPost;;;;
+Class;lib.concurrency.ConcurrencyManager;;;;
+Constructor;lib.concurrency.ConcurrencyManager.ConcurrencyManager;;;;
+Method;lib.concurrency.ConcurrencyManager.beginExecution;;;;
+Method;lib.concurrency.ConcurrencyManager.endExecution;;;;
+Interface;lib.distribution.rmi.IIteratorRMITargetAdapter;;;;
+Abstract Method;lib.distribution.rmi.IIteratorRMITargetAdapter.close;;;;
+Abstract Method;lib.distribution.rmi.IIteratorRMITargetAdapter.getNext;;;;
+Class;lib.distribution.rmi.IteratorRMISourceAdapter;;;;
+Constructor;lib.distribution.rmi.IteratorRMISourceAdapter.IteratorRMISourceAdapter;;;;
+Method;lib.distribution.rmi.IteratorRMISourceAdapter.close;;;;
+Method;lib.distribution.rmi.IteratorRMISourceAdapter.connect;;;;
+Method;lib.distribution.rmi.IteratorRMISourceAdapter.hasNext;;;;
+Method;lib.distribution.rmi.IteratorRMISourceAdapter.next;;;;
+Method;lib.distribution.rmi.IteratorRMISourceAdapter.print;;;;
+Method;lib.distribution.rmi.IteratorRMISourceAdapter.remove;;;;
+Class;lib.distribution.rmi.IteratorRMITargetAdapter;;;;
+Constructor;lib.distribution.rmi.IteratorRMITargetAdapter.IteratorRMITargetAdapter;;;;
+Method;lib.distribution.rmi.IteratorRMITargetAdapter.close;;;;
+Method;lib.distribution.rmi.IteratorRMITargetAdapter.getNext;;;;
+Class;lib.exceptions.CommunicationException;;;;
+Constructor;lib.exceptions.CommunicationException.CommunicationException;;;;
+Class;lib.exceptions.ConnectionPersistenceMechanismException;;;;
+Constructor;lib.exceptions.ConnectionPersistenceMechanismException.ConnectionPersistenceMechanismException;;;;
+Class;lib.exceptions.ExceptionMessages;;;;
+Class;lib.exceptions.FacadeUnavailableException;;;;
+Class;lib.exceptions.InsertEntryException;;;;
+Constructor;lib.exceptions.InsertEntryException.InsertEntryException;;;;
+Constructor;lib.exceptions.InsertEntryException.InsertEntryException;;;;
+Constructor;lib.exceptions.InsertEntryException.InsertEntryException;;;;
+Constructor;lib.exceptions.InsertEntryException.InsertEntryException;;;;
+Constructor;lib.exceptions.InsertEntryException.InsertEntryException;;;;
+Class;lib.exceptions.InvalidDateException;;;;
+Constructor;lib.exceptions.InvalidDateException.InvalidDateException;;;;
+Constructor;lib.exceptions.InvalidDateException.InvalidDateException;;;;
+Class;lib.exceptions.InvalidSessionException;;;;
+Constructor;lib.exceptions.InvalidSessionException.InvalidSessionException;;;;
+Constructor;lib.exceptions.InvalidSessionException.InvalidSessionException;;;;
+Class;lib.exceptions.ObjectAlreadyInsertedException;;;;
+Constructor;lib.exceptions.ObjectAlreadyInsertedException.ObjectAlreadyInsertedException;;;;
+Class;lib.exceptions.ObjectNotFoundException;;;;
+Constructor;lib.exceptions.ObjectNotFoundException.ObjectNotFoundException;;;;
+Class;lib.exceptions.ObjectNotValidException;;;;
+Constructor;lib.exceptions.ObjectNotValidException.ObjectNotValidException;;;;
+Class;lib.exceptions.PersistenceMechanismException;;;;
+Constructor;lib.exceptions.PersistenceMechanismException.PersistenceMechanismException;;;;
+Class;lib.exceptions.RepositoryException;;;;
+Constructor;lib.exceptions.RepositoryException.RepositoryException;;;;
+Class;lib.exceptions.SQLPersistenceMechanismException;;;;
+Constructor;lib.exceptions.SQLPersistenceMechanismException.SQLPersistenceMechanismException;;;;
+Class;lib.exceptions.TransactionException;;;;
+Constructor;lib.exceptions.TransactionException.TransactionException;;;;
+Class;lib.exceptions.UpdateEntryException;;;;
+Constructor;lib.exceptions.UpdateEntryException.UpdateEntryException;;;;
+Constructor;lib.exceptions.UpdateEntryException.UpdateEntryException;;;;
+Constructor;lib.exceptions.UpdateEntryException.UpdateEntryException;;;;
+Constructor;lib.exceptions.UpdateEntryException.UpdateEntryException;;;;
+Class;lib.logging.LogMechanism;;;;
+Method;lib.logging.LogMechanism.addLog;;;;
+Method;lib.logging.LogMechanism.addLogToThreads;;;;
+Method;lib.logging.LogMechanism.configure;;;;
+Method;lib.logging.LogMechanism.createOccurrence;;;;
+Method;lib.logging.LogMechanism.getInstance;;;;
+Method;lib.logging.LogMechanism.getLastOccurrence;;;;
+Method;lib.logging.LogMechanism.removeLogToThreads;;;;
+Class;lib.logging.ThreadLogging;;;;
+Method;lib.logging.ThreadLogging.uncaughtException;;;;
+Interface;lib.patterns.observer.Observer;;;;
+Abstract Method;lib.patterns.observer.Observer.notify;;;;
+Interface;lib.patterns.observer.Subject;;;;
+Abstract Method;lib.patterns.observer.Subject.addObserver;;;;
+Abstract Method;lib.patterns.observer.Subject.notifyObservers;;;;
+Abstract Method;lib.patterns.observer.Subject.removeObserver;;;;
+Interface;lib.persistence.IPersistenceMechanism;;;;
+Abstract Method;lib.persistence.IPersistenceMechanism.beginTransaction;;;;
+Abstract Method;lib.persistence.IPersistenceMechanism.commitTransaction;;;;
+Abstract Method;lib.persistence.IPersistenceMechanism.connect;;;;
+Abstract Method;lib.persistence.IPersistenceMechanism.disconnect;;;;
+Abstract Method;lib.persistence.IPersistenceMechanism.getCommunicationChannel;;;;
+Abstract Method;lib.persistence.IPersistenceMechanism.releaseCommunicationChannel;;;;
+Abstract Method;lib.persistence.IPersistenceMechanism.rollbackTransaction;;;;
+Class;lib.persistence.PersistenceMechanism;;;;
+Constructor;lib.persistence.PersistenceMechanism.PersistenceMechanism;;;;
+Method;lib.persistence.PersistenceMechanism.beginTransaction;;;;
+Method;lib.persistence.PersistenceMechanism.commitTransaction;;;;
+Method;lib.persistence.PersistenceMechanism.connect;;;;
+Method;lib.persistence.PersistenceMechanism.disconnect;;;;
+Method;lib.persistence.PersistenceMechanism.getCommunicationChannel;;;;
+Method;lib.persistence.PersistenceMechanism.getCommunicationChannel;;;;
+Method;lib.persistence.PersistenceMechanism.getInstance;;;;
+Method;lib.persistence.PersistenceMechanism.getInstance;;;;
+Method;lib.persistence.PersistenceMechanism.getPreparedStatement;;;;
+Method;lib.persistence.PersistenceMechanism.incCurrentMirror;;;;
+Method;lib.persistence.PersistenceMechanism.releaseCommunicationChannel;;;;
+Method;lib.persistence.PersistenceMechanism.releaseCommunicationChannel;;;;
+Method;lib.persistence.PersistenceMechanism.rollbackTransaction;;;;
+Class;lib.util.ConcreteIterator;;;;
+Constructor;lib.util.ConcreteIterator.ConcreteIterator;;;;
+Method;lib.util.ConcreteIterator.close;;;;
+Method;lib.util.ConcreteIterator.hasNext;;;;
+Method;lib.util.ConcreteIterator.next;;;;
+Method;lib.util.ConcreteIterator.remove;;;;
+Class;lib.util.Functions;;;;
+Constructor;lib.util.Functions.Functions;;;;
+Method;lib.util.Functions.campoPreenchido;;;;
+Method;lib.util.Functions.campoPreenchido;;;;
+Method;lib.util.Functions.campoPreenchido;;;;
+Method;lib.util.Functions.campoPreenchido;;;;
+Class;lib.util.HTMLCode;;;;
+Method;lib.util.HTMLCode.close;;;;
+Method;lib.util.HTMLCode.closeAdministrator;;;;
+Method;lib.util.HTMLCode.closeQueries;;;;
+Method;lib.util.HTMLCode.errorPage;;;;
+Method;lib.util.HTMLCode.errorPageAdministrator;;;;
+Method;lib.util.HTMLCode.errorPageQueries;;;;
+Method;lib.util.HTMLCode.foot;;;;
+Method;lib.util.HTMLCode.htmlPage;;;;
+Method;lib.util.HTMLCode.htmlPage;;;;
+Method;lib.util.HTMLCode.htmlPageAdministrator;;;;
+Method;lib.util.HTMLCode.htmlPageQueries;;;;
+Method;lib.util.HTMLCode.link;;;;
+Method;lib.util.HTMLCode.linkAdministrator;;;;
+Method;lib.util.HTMLCode.linkQueries;;;;
+Method;lib.util.HTMLCode.open;;;;
+Method;lib.util.HTMLCode.open;;;;
+Method;lib.util.HTMLCode.open;;;;
+Method;lib.util.HTMLCode.open1;;;;
+Method;lib.util.HTMLCode.open2;;;;
+Interface;lib.util.IteratorDsk;;;;
+Abstract Method;lib.util.IteratorDsk.close;;;;
+Abstract Method;lib.util.IteratorDsk.hasNext;;;;
+Abstract Method;lib.util.IteratorDsk.next;;;;
+Abstract Method;lib.util.IteratorDsk.remove;;;;
+Class;lib.util.Library;;;;
+Method;lib.util.Library.ajusteString;;;;
+Method;lib.util.Library.getFile;;;;
+Method;lib.util.Library.getFileListReplace;;;;
+Method;lib.util.Library.getFileReplace;;;;
+Method;lib.util.Library.getWordListReplace;;;;
+Method;lib.util.Library.getWordReplace;;;;
+Method;lib.util.Library.readFile;;;;
+Interface;lib.util.LocalIterator;;;;
+Abstract Method;lib.util.LocalIterator.close;;;;
+Abstract Method;lib.util.LocalIterator.hasNext;;;;
+Abstract Method;lib.util.LocalIterator.next;;;;
+Abstract Method;lib.util.LocalIterator.remove;;;;
+Class;lib.util.Schedule;;;;
+Constructor;lib.util.Schedule.Schedule;;;;
+Constructor;lib.util.Schedule.Schedule;;;;
+Constructor;lib.util.Schedule.Schedule;;;;
+Method;lib.util.Schedule.compara;;;;
+Method;lib.util.Schedule.format;;;;
+Method;lib.util.Schedule.format;;;;
+Method;lib.util.Schedule.getHora;;;;
+Method;lib.util.Schedule.getMinuto;;;;
+Method;lib.util.Schedule.getSegundo;;;;
+Method;lib.util.Schedule.stringToHorario;;;;
+Method;lib.util.Schedule.validaHorario;;;;
