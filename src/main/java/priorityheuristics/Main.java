@@ -2,6 +2,7 @@ package priorityheuristics;
 
 import priorityheuristics.files.ReadFiles;
 import priorityheuristics.heuristics.Heuristics;
+import priorityheuristics.heuristics.Statistic;
 
 public class Main {
 
@@ -14,11 +15,14 @@ public class Main {
 		ReadFiles read = new ReadFiles();
 		read.parseDesignProblemFiles();
 		
-		Heuristics h = new Heuristics(read.getProjects());
+		Statistic s = new Statistic(read.getProjects());
+		s.runAll();
+		
+		//Heuristics h = new Heuristics(read.getProjects());
+		
+		//h.runHeuristicsJsonOutput();
 		//h.runHeuristics();
-		h.runHeuristicsJsonOutput();
 		//h.runHeuristicsRecallJsonOutput();
-
 		//h.runHeuristicsHalfJsonOutput();
 	}
 
