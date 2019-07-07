@@ -1,6 +1,7 @@
 package priorityheuristics.files;
 
 import java.util.ArrayList;
+import java.util.Hashtable;
 import java.util.List;
 
 import priorityheuristics.heuristics.DesignProblemElement;
@@ -42,6 +43,17 @@ public class Project {
 		}
 		
 		return elements;
+	}
+	
+	public Hashtable<String, Integer> getDesignProblemElementsCount(){
+		Hashtable<String, Integer> hash = new Hashtable<>(dp.size());
+		
+		for(DesignProblemElement dpe: dp) {
+			hash.put(dpe.getPath(), dpe.getDp());
+		}
+		
+		
+		return hash;
 	}
 	
 	public List<String> getTopPercentElementsDP(){
